@@ -2,5 +2,22 @@
 
 body{width: 100%; height: 100%;}
 
-#bnbox{background-color: lightblue; width: 100%; height: 4000px; margin: 0 auto;}
+#bnbox{background-color: lightblue; width: 100%; height: 800px; margin: 0 auto;}
 
+#mainbox1{width: 100%; height: 800px; background-color: lightcoral; }
+
+#mainbox2{width: 100%; height: 800px; background-color: lightgreen;}
+
+#mainbox3{width: 100%; height: 800px; background-color: lightgrey;}
+
+#mainbox4{width: 100%; height: 800px; background-color: lightskyblue;}
+
+#mainbox5{width: 100%; height: 800px; background-color: lightyellow;}
+
+#mainbox6{width: 100%; height: 800px; background-color: lightpink;}
+
+#mainbox7{width: 100%; height: 800px; background-color: lightseagreen;}
+
+#mainbox8{width: 100%; height: 800px; background-color: lightslategray;}
+
+#mainbox9{width: 100%; height: 800px; background-color: lightsteelblue;}
