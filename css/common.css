@@ -2,11 +2,20 @@
 
 *{margin: 0; padding: 0;}
 ul,li,ol{list-style: none;}
-header{width: 100%; height: 90px;  background-color: lemonchiffon;}
+header{width: 100%; height: 90px; background-color: cadetblue;}
 
-#hbox{display: flex; justify-content: space-around;}
-.logo img{width: 50px; height: 50px; float: left;}
-nav ul li{ float: left; display: flex; flex-flow: wrap ; justify-content: space-around; padding: 35px;}
-nav ul li a{ text-decoration: none;}
-.cart img{width: 50px; height: 50px; }
+
+.logo img{width: 30px; height: 30px; float: left;}
+nav{margin: 0 auto; display: flex; justify-content: space-around; align-items: center;}
+nav ul li{float: left; padding: 32px;}
+nav ul li a{ text-decoration: none; color: #FFFFFF;}
+nav ul li a:hover{color: #1B5E20;}
+.cart img{width: 30px; height: 30px;  }
+
+
+
+
+
+
+
 footer{width: 100%; height: 660px; background-color: lemonchiffon;}
