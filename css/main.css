@@ -9,7 +9,7 @@
 
 body{width: 100%; height: 100%; background-color: #212121;}
 
-#bnbox{width: 100%; height: 640px; margin: 0 auto; z-index: 1; position: relative; top: 0; left: 0; }
+#bnbox{width: 100%; height: 640px; margin: 0 auto; z-index: 1; position: relative; top: 0; left: 0; overflow: hidden;}
 
 .cover{width: 100%; height: 100%; background-color: #000; opacity: 0.6; position: absolute; top: 0; left: 0;}
 
