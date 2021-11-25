@@ -1,19 +1,32 @@
 @charset "UTF-8";
 
-body{width: 100%; height: 100%;}
+@font-face {
+  font-family: 'S-CoreDream-9Black';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-9Black.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
 
-#bnbox{width: 100%; height: 840px; margin: 0 auto; background-color: lightblue; position: relative;}
+body{width: 100%; height: 100%; background-color: #212121;}
 
-#bnbox img{width: 100%; height: 640px;}
+#bnbox{width: 100%; height: 640px; margin: 0 auto; z-index: 1; position: relative; top: 0; left: 0; }
 
-#mainboxsub1{width: 65%; height: 200px; float: left; background-color: black; position: absolute; top: 640px;}
-.g{width: 33%; height: 100%; float: left; background-color: blanchedalmond;display: flex; justify-content: space-between; align-items: center; margin-left: 2px;}
-.g img{ width: 5px; height: 5px; }
+.cover{width: 100%; height: 100%; background-color: #000; opacity: 0.6; position: absolute; top: 0; left: 0;}
 
-#mainboxsub2{width: 35%; height: 270px; background-color: #1B5E20; float: right; position: absolute; right: 0; top: 570px;}
+.slide{width: 300vw;}
+.slide li{width: 100vw; height: 640px; float: left;}
+.slide li img{width: 100%; height: 100%;}
+
+.f{position: absolute; width: 100%; height: 100%; }
+.f h3{color: white; text-align: center; font-size: 35px; margin-top: 220px; font-family: 'Script MT';}
+.f p{color: #1B5E20; text-align: center; font-family: 'S-CoreDream-9Black'; font-size: 60px; margin-top: 15px;}
 
 
+#mainbox1{width: 100%; height: 200px; position: relative;}
 
+#m1box{width: 70%; height: 100%; display: flex; flex-flow: wrap; justify-content: space-around;}
+.m1{width: 33%; height: 100%; background-color: black;}
+.m2{width: 30%; height: 300px ; background-color: #1B5E20; position: absolute; top: -100px; right: 0; z-index: 6;}
 
 #mainbox2{width: 100%; height: 580px; background-color: lightgreen;}
 
