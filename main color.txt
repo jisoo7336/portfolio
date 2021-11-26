@@ -1,0 +1,12 @@
+스타벅스(main color)
+
+#1B5E20 -> 그린 
+#212121 -> 다크 그레이
+#FFFFFF -> 화이트
+
+#000000 -> 블랙
+
+#120F0F -> header, footer
+
+레이아웃 페이지 주소
+https://preview.colorlib.com/#coffeeblend

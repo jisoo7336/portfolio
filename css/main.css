@@ -22,11 +22,15 @@ body{width: 100%; height: 100%; background-color: #212121;}
 .f p{color: #1B5E20; text-align: center; font-family: 'S-CoreDream-9Black'; font-size: 60px; margin-top: 15px;}
 
 
-#mainbox1{width: 100%; height: 200px; position: relative;}
+#mainbox1{width: 100%; height: 180px; position: relative;}
 
 #m1box{width: 70%; height: 100%; display: flex; flex-flow: wrap; justify-content: space-around;}
-.m1{width: 33%; height: 100%; background-color: black;}
-.m2{width: 30%; height: 300px ; background-color: #1B5E20; position: absolute; top: -100px; right: 0; z-index: 6;}
+.m1{width: 33%; height: 100%; background-color: black; display: flex; flex-flow: row wrap; justify-content: space-around; align-items: center; padding-left: 80px; }
+.m2{width: 30%; height: 300px ; background-color: #1B5E20; position: absolute; top: -120px; right: 0; z-index: 6;}
+.m1 img{width: 25px; height: 25px; margin-top: -80px; margin-left: 100px; }
+.fbox1{ margin-top: -25px;}
+.fbox1 b{color: white; font-size: 20px;}
+.fbox1 p{color: gray; font-size: 15px;}
 
 #mainbox2{width: 100%; height: 580px; background-color: lightgreen;}
 
