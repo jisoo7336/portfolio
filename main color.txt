@@ -8,5 +8,14 @@
 
 #120F0F -> header, footer
 
+
+
+
 레이아웃 페이지 주소
 https://preview.colorlib.com/#coffeeblend
+
+선생님 블로그
+https://blog.naver.com/red0808
+
+내 주소
+https://jisoo7336.github.io/portfolio/

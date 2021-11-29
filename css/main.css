@@ -32,15 +32,28 @@ body{width: 100%; height: 100%; background-color: #212121;}
 .fbox1 span{color: gray; font-size: 15px;}
 
 
-.m2{width: 30%; height: 300px ; background-color: #1B5E20; position: absolute; top: -120px; right: 0; z-index: 6;}
+.m2{width: 30%; height: 300px ; background-color: #1B5E20; position: absolute; top: -120px; right: 0; z-index: 6; padding: 20px;}
+.m2 p{color: white; font-size: 16px;}
+
+
+#mainbox2{width: 100%; height: 560px; position: relative;}
+#mainbox2 img{width: 50%; height: 100%; position: absolute;}
+.cover2{width: 50%; height: 100%; position: absolute; background-color: #000; opacity: 0.2; top: 0; left: 0;}
+#fontbox{width: 32%; height: 65%;background-color: black; opacity: 0.7; float: right; margin-top: 100px; margin-right: 400px;}
+.fbox2{opacity: 1; padding: 32px; height: 100%; width: 100%;}
+.fbox2 span{color: #1B5E20; font-weight: bolder; font-size: 30px; width: 100%;}
+.fbox2 h2{color: white; font-weight: bolder; font-size: 35px; margin-top:-15px; width: 100%;}
+.fbox2 p{margin-top: 20px; color: gray; font-size: 15px; width: 100%;}
 
 
 
-#mainbox2{width: 100%; height: 580px; background-color: lightgreen;}
+#mainbox3{width: 100%; height: 470px; background-color: #1B5E20;}
 
-#mainbox3{width: 100%; height: 470px; background-color: lightgrey;}
 
-#mainbox4{width: 100%; height: 700px; background-color: lightskyblue;}
+
+
+
+#mainbox4{width: 100%; height: 700px; }
 
 #mainbox5{width: 100%; height: 360px; background-color: lightyellow;}
 
