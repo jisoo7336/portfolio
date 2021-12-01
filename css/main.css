@@ -72,7 +72,7 @@ body{width: 100%; height: 100%; background-color: #212121;}
 .fbox6 h2{color: white; font-weight: bolder; font-size: 35px; margin-top:-15px; width: 100%;}
 .fbox6 p{margin-top: 20px; color: gray; font-size: 15px; width: 100%;}
 
-.contentbox3{width: 250px; height: 60%;  margin-top: 35px; margin-left: 48px;}
+.contentbox3{width: 250px; height: 60%;  margin-top: 35px; margin-left: 0px;}
 .contentbox3 img{width: 100%; height: 55%;}
 
 .fbox7{width: 100%; height: 45%; color: white; text-align: center;}
