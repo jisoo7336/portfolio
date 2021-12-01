@@ -39,11 +39,11 @@ body{width: 100%; height: 100%; background-color: #212121;}
 #mainbox2{width: 100%; height: 560px; position: relative;}
 #mainbox2 img{width: 50%; height: 100%; position: absolute;}
 .cover2{width: 50%; height: 100%; position: absolute; background-color: #000; opacity: 0.2; top: 0; left: 0;}
-#fontbox{width: 32%; height: 65%;background-color: black; opacity: 0.7; float: right; margin-top: 100px; margin-right: 400px;}
-.fbox2{opacity: 1; padding: 32px; height: 100%; width: 100%;}
-.fbox2 span{color: #1B5E20; font-weight: bolder; font-size: 30px; width: 100%;}
+#fontbox{width: 500px; height: 350px;background-color: black; opacity: 0.7; float: right; margin-top: 100px; margin-right: 400px;}
+.fbox2{opacity: 1; padding: 32px;}
+.fbox2 span{color: #1B5E20; font-weight: bolder; font-size: 30px; width: 100%; font-family: 'Script MT';}
 .fbox2 h2{color: white; font-weight: bolder; font-size: 35px; margin-top:-15px; width: 100%;}
-.fbox2 p{margin-top: 20px; color: gray; font-size: 15px; width: 100%;}
+.fbox2 p{margin-top: 20px; color: gray; font-size: 15px;}
 
 
 
@@ -52,24 +52,32 @@ body{width: 100%; height: 100%; background-color: #212121;}
 
 
 #mainbox4{width: 100%; height: 700px; display: flex; flex-flow: row wrap; justify-content: space-around; align-items: center; padding:100px;}
-.contentbox2{width: 45%; height: 100%;}
+.contentbox2{width: 470px; height: 500px;}
 
-.fbox4{float: right; width: 70%; margin-top: 120px;}
-.fbox4 span{color: #1B5E20; font-weight: bolder; font-size: 30px; width: 100%;}
+.fbox4{float: right;  margin-top: 120px;}
+.fbox4 span{color: #1B5E20; font-weight: bolder; font-size: 30px; width: 100%; font-family: 'Script MT';}
 .fbox4 h2{color: white; font-weight: bolder; font-size: 35px; margin-top:-15px; width: 100%;}
 .fbox4 p{margin-top: 20px; color: gray; font-size: 15px; width: 100%; margin-bottom: 20px;}
-.fbox4 button{ color: #1B5E20; width: 130px; height: 45px;}
-.fbox4 button:hover{ background-color: #1B5E20; color: white; border: 15px solid #1B5E20;}
+.fbox4 button{ color: #1B5E20; width: 130px; height: 45px; border: 2px solid #1B5E20; background-color: #212121; font-weight: bolder;}
+.fbox4 button:hover{ background-color: #1B5E20; color: white;}
 
-.contentbox2 img{width: 45%; height: 35%; margin-top: 45px; margin-right: 10px;}
+.contentbox2 img{width: 47%; height: 42%; margin-top: 25px; margin-right: 10px;}
 
 #mainbox5{width: 100%; height: 360px; background-color: lightyellow;}
 
-#mainbox6{width: 100%; height: 700px;}
+#mainbox6{width: 100%; height: 750px; display: flex; flex-flow: row wrap; justify-content: space-around; align-items: center; }
 
-.fbox6{text-align: center; margin-top: 100px;}
-.fbox6 span{color: #1B5E20; font-weight: bolder; font-size: 30px; width: 100%;}
+.fbox6{text-align: center; margin-top: 100px; width: 100%;}
+.fbox6 span{color: #1B5E20; font-weight: bolder; font-size: 30px; width: 100%; font-family: 'Script MT';}
 .fbox6 h2{color: white; font-weight: bolder; font-size: 35px; margin-top:-15px; width: 100%;}
 .fbox6 p{margin-top: 20px; color: gray; font-size: 15px; width: 100%;}
 
-.contentbox3{ background-color: yellow;}
+.contentbox3{width: 250px; height: 60%;  margin-top: 35px; margin-left: 48px;}
+.contentbox3 img{width: 100%; height: 55%;}
+
+.fbox7{width: 100%; height: 45%; color: white; text-align: center;}
+.fbox7 p{ color: gray; font-size: 12px; margin-top: 20px;}
+.fbox7 h3{margin-top: 10px;}
+
+.fbox7 button{ color: #1B5E20; width: 95px; height: 30px; margin-top: 20px; font-size: 12px; border: 2px solid #1B5E20; background-color: #212121; font-weight: bolder;}
+.fbox7 button:hover{ background-color: #1B5E20; color: white;}
