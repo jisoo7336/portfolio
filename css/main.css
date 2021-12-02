@@ -47,12 +47,19 @@ body{width: 100%; height: 100%; background-color: #212121;}
 
 
 
-#mainbox3{width: 100%; height: 470px; background-color: #1B5E20; display: flex; flex-flow: row wrap; justify-content: space-around; padding: 0 100px 0 100px;}
-.contentbox1{width: 30%; height: 100%; background-color: aliceblue;}
+#mainbox3{width: 100%; height: 470px; background-color: #1B5E20;}
+#cover3{ width: 1100px; height: 100%; margin: 0 auto;}
+.contentbox1{float: left; width: 360px; height: 100%; text-align: center;}
+.contentbox1 img{width: 100px; height: 100px; margin: 80px 130px 40px; border: 1px solid black;}
+.contentbox1 h4{font-size: 20px;}
+.contentbox1 p{margin-top: 20px; font-size: 15px;}
 
 
-#mainbox4{width: 100%; height: 700px; display: flex; flex-flow: row wrap; justify-content: space-around; align-items: center; padding:100px;}
+#mainbox4{width: 1100px; height: 700px; display: flex; flex-flow: row wrap; justify-content: space-around; align-items: center; margin: 0 auto;}
 .contentbox2{width: 470px; height: 500px;}
+
+
+
 
 .fbox4{float: right;  margin-top: 120px;}
 .fbox4 span{color: #1B5E20; font-weight: bolder; font-size: 30px; width: 100%; font-family: 'Script MT';}
@@ -63,9 +70,15 @@ body{width: 100%; height: 100%; background-color: #212121;}
 
 .contentbox2 img{width: 47%; height: 42%; margin-top: 25px; margin-right: 10px;}
 
-#mainbox5{width: 100%; height: 360px; background-color: lightyellow;}
+#mainbox5{width: 100%; height: 360px; background-color: cadetblue;}
+#cover5{ width: 1100px; height: 100%; margin: 0 auto;}
+.contentbox5{float: left; width: 25%; height: 100%; text-align: center;}
+.contentbox5 img{width: 80px; height: 80px; margin-top: 83px; border: 1px solid #1B5E20;}
+.contentbox5 h4{color: #1B5E20; font-size: 30px; margin-top: 18px;}
+.contentbox5 p{color: white; font-size: 13px; margin-top: 10px;}
 
-#mainbox6{width: 100%; height: 750px; display: flex; flex-flow: row wrap; justify-content: space-around; align-items: center; }
+
+#mainbox6{width: 1100px; height: 750px; display: flex; flex-flow: row wrap; justify-content: space-around; align-items: center; margin: 0 auto;}
 
 .fbox6{text-align: center; margin-top: 100px; width: 100%;}
 .fbox6 span{color: #1B5E20; font-weight: bolder; font-size: 30px; width: 100%; font-family: 'Script MT';}
