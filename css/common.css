@@ -20,10 +20,18 @@ nav ul li a:hover{color: #1B5E20;}
 
 footer{width: 100%; height: 660px; background-color: #120F0F; color: white;}
 #footerbox{width: 1100px; height: 80%; margin: 0 auto;}
-#footerbox p{text-align:start;}
+#footerbox p{text-align:start; font-size: 18px;}
+#footerbox span{font-size: 20px;}
 footer p{color: gray;  margin-top: 50px; text-align: center;}
-#footercb1{width: 33%; height: 100%; float: left; background-color: coral;}
-.footerimgbox1 img{width: 80px; height: 80px; float: left; margin-top: 50px; margin-left: -20px;}
-#footercb1 a{color: gray; text-decoration: none;}
+#footercb1{width: 40%; height: 100%; float: left;}
+#footercb1 img{width: 80px; height: 80px; float: left; margin-top: 50px; margin-left: -20px;}
 
-.footerimgbox1{width: 100%; height: 30%;}
+
+#footercb2{width: 30%; height: 100%; float: left;}
+#footercb2 a{color: gray; text-decoration: none;}
+
+#footercb3{width: 30%; height: 100%; float: left;}
+.footerimgbox2{width: 20%; float: left; margin-top: 10px;}
+.footerimgbox2 img{width: 30px; height: 30px; margin-top: -10px;}
+
+.footerfbox2 p{margin-top: 50px;}

@@ -32,9 +32,9 @@ body{width: 100%; height: 100%; background-color: #212121;}
 .fbox1 span{color: gray; font-size: 15px;}
 
 
-.m2{width: 30%; height: 300px ; background-color: #1B5E20; position: absolute; top: -120px; right: 0; z-index: 6; padding: 20px;}
+.m2{width: 30%; height: 300px ; background-color: #1B5E20; position: absolute; top: -120px; right: 0; z-index: 6; padding: 20px; color: white;}
 .m2 p{color: white; font-size: 16px;}
-
+input{background: none; border: none; border-bottom: 1px solid white; width: 90px; color: white;}
 
 #mainbox2{width: 100%; height: 560px; position: relative;}
 #mainbox2 img{width: 50%; height: 100%; position: absolute;}
