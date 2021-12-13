@@ -4,6 +4,11 @@
 ul,li,ol{list-style: none;}
 
 @media(max-width:767px){
+
+.a {display:block;}
+.b {display:none; position: absolute; top:60px; left: 0px; width: 100%;}
+.b ul li a{display: block; width: 100%; line-height: 150%;}
+
 #top{width: 100%; height: 640px; margin: 0 auto; position: relative;}
 header{width: 100%; height: 90px; z-index: 3; position: absolute; top: 0; left: 0; right: 0; margin: 0 auto;}
 
@@ -41,6 +46,10 @@ footer p{color: gray;  margin-top: 50px; text-align: center;}
 
 
 @media(min-width:768px){
+
+.a {display:none;}
+.b {display:block;}
+
 #top{width: 100%; height: 640px; margin: 0 auto; position: relative;}
 header{width: 100%; height: 90px; z-index: 3; position: absolute; top: 0; left: 0; right: 0; margin: 0 auto;}
 
@@ -53,7 +62,6 @@ nav ul li a{ text-decoration: none; color: #FFFFFF;}
 nav ul li a:hover{color: #1B5E20;}
 
 .cart img{width: 35px; height: 35px; margin-right: 50px; }
-
 
 
 footer{width: 100%; height: 660px; background-color: #120F0F; color: white;}
@@ -90,7 +98,6 @@ nav ul li a{ text-decoration: none; color: #FFFFFF;}
 nav ul li a:hover{color: #1B5E20;}
 
 .cart img{width: 35px; height: 35px; margin-right: 50px; }
-
 
 
 footer{width: 100%; height: 660px; background-color: #120F0F; color: white;}
