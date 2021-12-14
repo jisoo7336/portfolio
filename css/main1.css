@@ -1,0 +1,113 @@
+
+@charset "UTF-8";
+
+@font-face {
+  font-family: 'S-CoreDream-9Black';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-9Black.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body{width: 100%; height: 100%; background-color: #212121;}
+
+
+@media(min-width:600px) and (max-width:1099px){ 
+
+    #bnbox{width: 100%; height: 640px; margin: 0 auto; z-index: 1; position: relative; top: 0; left: 0; overflow: hidden;}
+
+    .cover{width: 100%; height: 100%; background-color: #000; opacity: 0.6; position: absolute; top: 0; left: 0;}
+    
+    .slide{width: 300vw;}
+    .slide li{width: 100vw; height: 640px; float: left;}
+    .slide li img{width: 100%; height: 100%;}
+    
+    .f{position: absolute; width: 100%; height: 100%; }
+    .f h3{color: white; text-align: center; font-size: 35px; margin-top: 220px; font-family: 'Script MT';}
+    .f p{color: #1B5E20; text-align: center; font-family: 'S-CoreDream-9Black'; font-size: 60px; margin-top: 15px;}
+    
+    
+    #mainbox1{width: 100%; height: 180px; position: relative;}
+    
+    #m1box{width: 70%; height: 100%; display: flex; flex-flow: row wrap; justify-content: space-around; padding: 20px 50px; background-color: black;}
+    #m1box img{width: 10px; height: 10px; float: left; margin-left: -30px; margin-top: 15px;}
+    
+    .fbox1{width: 100%; height: 30%; float: left; margin-bottom: 10px;}
+    .fbox1 h3{color: white; font-size: 10px; margin-top: 8px;}
+    .fbox1 span{color: gray; font-size: 5px;}
+    
+    
+    .m2{width: 320px; height: 300px ; background-color: #1B5E20; position: absolute; top: -120px; right: 0; z-index: 6; padding: 20px; color: white;}
+    .m2 p{color: white; font-size: 16px;}
+    input{background: none; border: none; color: white;}
+    .input1{width: 100%;}
+    .input1 ::placeholder{color: white;}
+    .input1 input{height: 50px; width: 49%; border-bottom: 1px solid white;}
+    .input2{margin-top: 25px; width: 100%;}
+    .input2 ::placeholder{color: white;}
+    .input2 input{height: 50px; width: 31%; border-bottom: 1px solid white;}
+    .input3{margin-top: 30px; width: 100%;}
+    .input3 textarea{height: 50px; width: 48%; background: none; border: none; border-bottom: 1px solid white; margin-right: 10px; float: left; color: white;}
+    .input3 ::placeholder{color: white;}
+    .input3 input{height: 50px; width: 48%; background-color: white; color: black; cursor: pointer;}
+    .input3 input:hover{background-color: black; color: white;}
+    
+    #mainbox2{width: 100%; height: 560px; position: relative; margin: 0 auto;}
+    #mainbox2 img{width: 100%; height: 100%; position: absolute;}
+    .cover2{width: 50%; height: 100%; position: absolute; background-color: #000; opacity: 0.2; top: 0; left: 0;}
+    #fontbox{width: 500px; height: 350px;background-color: black; opacity: 0.7; float: left; margin-top: 100px; margin-left: 50px;}
+    .fbox2{opacity: 1; padding: 32px;}
+    .fbox2 span{color: #1B5E20; font-weight: bolder; font-size: 30px; width: 100%; font-family: 'Script MT';}
+    .fbox2 h2{color: white; font-weight: bolder; font-size: 35px; margin-top:-15px; width: 100%;}
+    .fbox2 p{margin-top: 20px; color: gray; font-size: 15px;}
+    
+    
+    
+    #mainbox3{width: 100%; height: 470px; background-color: #1B5E20; margin: 0 auto;}
+    #cover3{ width:90%; height: 100%; margin: 0 auto;}
+    .contentbox1{float: left; width: 33%; height: 100%; text-align: center;}
+    .contentbox1 img{width: 100px; height: 100px; margin: 0 auto; border: 1px solid black; padding: 20px; margin-top: 100px; margin-bottom: 20px;}
+    .contentbox1 h4{font-size: 20px;}
+    .contentbox1 p{margin-top: 20px; font-size: 15px;}
+    
+    
+    #mainbox4{width: 100%; height: 500px; margin: 0 auto;}
+    .contentbox2{width: 50%; height: 500px; margin: 0 auto; float: left;}
+    .contentbox2 img{width: 40%; height: 42%; margin-top: 25px; margin-left: 15px; }
+    
+    .fbox4{float: right;  margin-top: 120px; margin-left: 20px;}
+    .fbox4 span{color: #1B5E20; font-weight: bolder; font-size: 30px; width: 100%; font-family: 'Script MT';}
+    .fbox4 h2{color: white; font-weight: bolder; font-size: 35px; margin-top:-15px; width: 100%;}
+    .fbox4 p{margin-top: 20px; color: gray; font-size: 15px; width: 100%; margin-bottom: 20px;}
+    .fbox4 button{ color: #1B5E20; width: 130px; height: 45px; border: 2px solid #1B5E20; background-color: #212121; font-weight: bolder;}
+    .fbox4 button:hover{ background-color: #1B5E20; color: white;}
+    
+    
+    #mainbox5{width: 100%; height: 360px; position: relative; margin: 0 auto;}
+    .bg2 img{width: 100%; height: 100%; position: absolute; z-index: 1;}
+    .cover4{width: 100%; height: 100%; background-color: black; opacity: 0.4; position: absolute; z-index: 2;}
+    #cover5{ width: 90%; height: 100%; position: relative; z-index: 3; margin: 0 auto;} 
+    .contentbox5{float: left; width: 25%; height: 100%; text-align: center;}
+    #cover5 img{width: 80px; height: 80px; margin-top: 83px; border: 1px solid #1B5E20; padding: 20px;}
+    .contentbox5 h4{color: #1B5E20; font-size: 30px; margin-top: 18px;}
+    .contentbox5 p{color: white; font-size: 13px; margin-top: 10px;}
+    
+    
+    #mainbox6{width: 100%; height: 750px; display: flex; flex-flow: row wrap; justify-content: space-around; align-items: center; margin: 0 auto;}
+    
+    .fbox6{text-align: center; width: 100%;}
+    .fbox6 span{color: #1B5E20; font-weight: bolder; font-size: 30px; width: 100%; font-family: 'Script MT';}
+    .fbox6 h2{color: white; font-weight: bolder; font-size: 35px; margin-top:-15px; width: 100%;}
+    .fbox6 p{margin-top: 20px; color: gray; font-size: 15px; width: 100%;}
+    
+    .contentbox3{width: 23%; height: 60%; margin-left: 0px; margin-bottom: 40px;}
+    .contentbox3 img{width: 100%; height: 50%;}
+    
+    .fbox7{width: 100%; height: 45%; color: white; text-align: center;}
+    .fbox7 h4{margin-top: 10px;}
+    .fbox7 p{ color: gray; font-size: 12px; margin-top: 20px;}
+    .fbox7 h3{margin-top: 10px;}
+    
+    .fbox7 button{ color: #1B5E20; width: 95px; height: 30px; margin-top: 20px; font-size: 12px; border: 2px solid #1B5E20; background-color: #212121; font-weight: bolder;}
+    .fbox7 button:hover{ background-color: #1B5E20; color: white;}
+    
+}
