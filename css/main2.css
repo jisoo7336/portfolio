@@ -60,18 +60,18 @@ input{background: none; border: none; color: white;}
 .contentbox1 p{margin-top: 20px; font-size: 15px;}
 
 
-#mainbox4{width: 100%; height: 1400px; margin: 0 auto;}
+#mainbox4{width: 100%; height: 1400px; margin: 0 auto; padding: 20px;}
 .contentbox2{width: 100%; height: 100%;}
 
 
-.fbox4{float: left; margin-top: 120px; width: 50%; height: 100%;}
+.fbox4{ width: 100%; height: 20%;}
 .fbox4 span{color: #1B5E20; font-weight: bolder; font-size: 30px; width: 100%; font-family: 'Script MT';}
 .fbox4 h2{color: white; font-weight: bolder; font-size: 35px; margin-top:-15px; width: 100%;}
 .fbox4 p{margin-top: 20px; color: gray; font-size: 15px; width: 100%; margin-bottom: 20px;}
 .fbox4 button{ color: #1B5E20; width: 130px; height: 45px; border: 2px solid #1B5E20; font-weight: bolder; background: none;}
 .fbox4 button:hover{ background-color: #1B5E20; color: white;}
 
-.contentbox2 img{width: 22%; height: 40%; margin-top: 30px; margin-right: 10px;}
+.contentbox2 img{width: 100%; height: 18%; margin-top: 15px;  }
 
 
 #mainbox5{width: 100%; height: 1000px; position: relative; margin: 0 auto;background: url(../img/decafeImg1.jpg) no-repeat   top/cover;}
