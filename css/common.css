@@ -6,7 +6,7 @@ ul,li,ol{list-style: none;}
 
 #top{width: 100%; height: 640px; margin: 0 auto; position: relative;}
 header{width: 100%; height: 90px; z-index: 3; position: absolute; top: 0; left: 0; right: 0; margin: 0 auto; border-bottom: 1px solid #1B5E20;}
-#headersub{width: 1200px; height: 0 auto; margin: 0 auto; }
+#headersub{width: 1100px; height: 0 auto; margin: 0 auto; }
 
 .logo img{width: 70px; height: 60px; float: left; margin-top: 15px; margin-left: 50px;}
 
@@ -20,11 +20,11 @@ nav ul li a:hover{color: #1B5E20;}
 
 
 footer{width: 100%; height: 660px; background-color: #120F0F; color: white;}
-#footerbox{width: 100%; height: 80%; margin: 0 auto;}
+#footerbox{width: 1100px; height: 80%; margin: 0 auto;}
 #footerbox p{text-align:start; font-size: 18px;}
 #footerbox span{font-size: 20px;}
 footer p{color: gray;  margin-top: 50px; text-align: center;}
-#footercb1{width: 40%; height: 100%; float: left;}
+#footercb1{width: 30%; height: 100%; float: left;}
 #footercb1 img{width: 80px; height: 80px; float: left; margin-top: 50px; margin-left: -20px;}
 
 

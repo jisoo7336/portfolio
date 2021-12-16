@@ -1,15 +1,6 @@
 
 @charset "UTF-8";
 
-@font-face {
-  font-family: 'S-CoreDream-9Black';
-  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-9Black.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-}
-
-body{width: 100%; height: 100%; background-color: #212121;}
-
 
 @media(min-width:600px) and (max-width:1099px){ 
 
@@ -31,12 +22,12 @@ body{width: 100%; height: 100%; background-color: #212121;}
     #m1box{width: 70%; height: 100%; display: flex; flex-flow: row wrap; justify-content: space-around; padding: 50px; background-color: black;}
     #m1box img{width: 20px; height: 20px; float: left; margin-left: -30px; margin-top: 5px;}
 
-    .fbox1{width:25%; height: 0 auto; top: ;}
+    .fbox1{width:25%; height: 0 auto;}
     .fbox1 h3{color: white; font-size: 18px; margin-bottom: 15px;}
     .fbox1 span{color: gray; font-size: 15px;}
 
     
-    .m2{width: 30%; height: 300px ; background-color: #1B5E20; position: absolute; top: 0px; right: 0; z-index: 6; padding: 20px; color: white;}
+    .m2{width: 30%; height: 300px ; background-color: #1B5E20; position: absolute; top: 0px; right: 0; z-index: 6; padding: 20px 1.5%; color: white;}
     .m2 p{color: white; font-size: 16px;}
     input{background: none; border: none; color: white;}
     .input1{width: 100%;}
@@ -46,16 +37,16 @@ body{width: 100%; height: 100%; background-color: #212121;}
     .input2 ::placeholder{color: white;}
     .input2 input{height: 50px; width: 30%; border-bottom: 1px solid white;}
     .input3{margin-top: 30px; width: 100%;}
-    .input3 textarea{height: 50px; width: 46%; background: none; border: none; border-bottom: 1px solid white; margin-right: 10px; float: left; color: white;}
+    .input3 textarea{height: 50px; width: 46%; background: none; border: none; border-bottom: 1px solid white; margin-right: 1%; float: left; color: white;}
     .input3 ::placeholder{color: white;}
     .input3 input{height: 50px; width: 46%; background-color: white; color: black; cursor: pointer;}
     .input3 input:hover{background-color: black; color: white;}
     
     #mainbox2{width: 100%; height: 560px; position: relative; margin: 0 auto;}
     #mainbox2 img{width: 70%; height: 100%; position: absolute;}
-    .cover2{width: 50%; height: 100%; position: absolute; background-color: #000; opacity: 0.2; top: 0; left: 0;}
-    #fontbox{width: 500px; height: 350px;background-color: black; opacity: 0.7; float: left; margin-top: 100px; margin-left: 50px;}
-    .fbox2{opacity: 1; padding: 32px;}
+    .cover2{width: 70%; height: 100%; position: absolute; background-color: #000; opacity: 0.2; top: 0; left: 0;}
+    #fontbox{width: 30%; height: 100%;float: right; position: relative;}
+    .fbox2{width: 500px; height: 350px;background-color: black; opacity: 0.7; position: absolute; top: 100px; right: 50px; padding: 32px;}
     .fbox2 span{color: #1B5E20; font-weight: bolder; font-size: 30px; width: 100%; font-family: 'Script MT';}
     .fbox2 h2{color: white; font-weight: bolder; font-size: 35px; margin-top:-15px; width: 100%;}
     .fbox2 p{margin-top: 20px; color: gray; font-size: 15px;}
@@ -78,13 +69,13 @@ body{width: 100%; height: 100%; background-color: #212121;}
     .fbox4 span{color: #1B5E20; font-weight: bolder; font-size: 30px; width: 100%; font-family: 'Script MT';}
     .fbox4 h2{color: white; font-weight: bolder; font-size: 35px; margin-top:-15px; width: 100%;}
     .fbox4 p{margin-top: 20px; color: gray; font-size: 15px; width: 100%; margin-bottom: 20px;}
-    .fbox4 button{ color: #1B5E20; width: 130px; height: 45px; border: 2px solid #1B5E20; background-color: #212121; font-weight: bolder;}
+    .fbox4 button{ color: #1B5E20; width: 130px; height: 45px; border: 2px solid #1B5E20;  background: none; font-weight: bolder;}
     .fbox4 button:hover{ background-color: #1B5E20; color: white;}
     
     
-    #mainbox5{width: 100%; height: 500px; position: relative; margin: 0 auto;}
-    .bg2 img{width: 100%; height: 100%; position: absolute; z-index: 1;}
-    .cover4{width: 100%; height: 100%; background-color: black; opacity: 0.4; position: absolute; z-index: 2;}
+    #mainbox5{width: 100%; height: 500px; position: relative; margin: 0 auto;background: url(../img/decafeImg1.jpg) no-repeat fixed  top/cover;}
+    
+    .cover4{width: 100%; height: 100%; background-color: black; opacity: 0.7; position: absolute; z-index: 2;}
     #cover5{ width: 90%; height: 100%; position: relative; z-index: 3; margin: 0 auto;} 
     .contentbox5{float: left; width: 50%; height: 50%; text-align: center;}
     #cover5 img{width: 80px; height: 80px; margin-top: 40px; border: 1px solid #1B5E20; padding: 20px;}
