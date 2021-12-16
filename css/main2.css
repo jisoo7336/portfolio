@@ -60,18 +60,18 @@ input{background: none; border: none; color: white;}
 .contentbox1 p{margin-top: 20px; font-size: 15px;}
 
 
-#mainbox4{width: 100%; height: 1400px; margin: 0 auto; padding: 20px;}
+#mainbox4{width: 100%; height: 1600px; margin: 0 auto; padding: 20px;}
 .contentbox2{width: 100%; height: 100%;}
 
 
-.fbox4{ width: 100%; height: 20%;}
+.fbox4{ width: 100%; height: 18%;}
 .fbox4 span{color: #1B5E20; font-weight: bolder; font-size: 30px; width: 100%; font-family: 'Script MT';}
 .fbox4 h2{color: white; font-weight: bolder; font-size: 35px; margin-top:-15px; width: 100%;}
 .fbox4 p{margin-top: 20px; color: gray; font-size: 15px; width: 100%; margin-bottom: 20px;}
 .fbox4 button{ color: #1B5E20; width: 130px; height: 45px; border: 2px solid #1B5E20; font-weight: bolder; background: none;}
 .fbox4 button:hover{ background-color: #1B5E20; color: white;}
 
-.contentbox2 img{width: 100%; height: 18%; margin-top: 15px;  }
+.contentbox2 img{width: 100%; height: 19%; margin-top: 15px;  }
 
 
 #mainbox5{width: 100%; height: 1000px; position: relative; margin: 0 auto;background: url(../img/decafeImg1.jpg) no-repeat   top/cover;}
@@ -84,7 +84,7 @@ input{background: none; border: none; color: white;}
 .contentbox5 p{color: white; font-size: 13px; margin-top: 10px;}
     
 
-#mainbox6{width: 100%; height: 2000px; margin: 0 auto; padding: 60px 30px;}
+#mainbox6{width: 100%; height: 2600px; margin: 0 auto; padding: 60px 30px;}
 
 .fbox6{text-align: center; width: 100%; height: 12%;}
 .fbox6 span{color: #1B5E20; font-weight: bolder; font-size: 30px; width: 100%; font-family: 'Script MT';}
@@ -92,7 +92,7 @@ input{background: none; border: none; color: white;}
 .fbox6 p{margin-top: 20px; color: gray; font-size: 15px; width: 100%;}
 
 .contentbox3{width: 100%; height: 22%; }
-.contentbox3 img{width: 100%; height: 50%;}
+.contentbox3 img{width: 100%; height: 60%;}
 
 .fbox7{width: 100%; height: 45%; color: white; text-align: center;}
 .fbox7 h4{margin-top: 10px;}
