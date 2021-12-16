@@ -61,17 +61,19 @@
     .contentbox1 p{margin-top: 20px; font-size: 15px;}
     
     
-    #mainbox4{width: 100%; height: 500px; margin: 0 auto;}
-    .contentbox2{width: 50%; height: 500px; margin: 0 auto; float: left;}
-    .contentbox2 img{width: 40%; height: 180px; margin-top: 35px; margin-left: 15px; }
-    
-    .fbox4{float: right;  margin-top: 120px; margin-left: 20px;}
+    #mainbox4{width: 100%; height: 600px; margin: 0 auto; padding: 30px;}
+    .contentbox2{width: 100%; height: 100%;}
+
+
+    .fbox4{float: left; margin-top: 120px; width: 50%; height: 50%;}
     .fbox4 span{color: #1B5E20; font-weight: bolder; font-size: 30px; width: 100%; font-family: 'Script MT';}
     .fbox4 h2{color: white; font-weight: bolder; font-size: 35px; margin-top:-15px; width: 100%;}
     .fbox4 p{margin-top: 20px; color: gray; font-size: 15px; width: 100%; margin-bottom: 20px;}
-    .fbox4 button{ color: #1B5E20; width: 130px; height: 45px; border: 2px solid #1B5E20;  background: none; font-weight: bolder;}
+    .fbox4 button{ color: #1B5E20; width: 130px; height: 45px; border: 2px solid #1B5E20; font-weight: bolder; background: none;}
     .fbox4 button:hover{ background-color: #1B5E20; color: white;}
-    
+
+    .contentbox2 img{width: 22%; height: 40%; margin-top: 30px; margin-right: 10px;}
+
     
     #mainbox5{width: 100%; height: 500px; position: relative; margin: 0 auto;background: url(../img/decafeImg1.jpg) no-repeat fixed  top/cover;}
     
@@ -83,7 +85,7 @@
     .contentbox5 p{color: white; font-size: 13px; margin-top: 10px;}
     
     
-    #mainbox6{width: 100%; height: 750px; display: flex; flex-flow: row wrap; justify-content: space-around; align-items: center; margin: 0 auto;}
+    #mainbox6{width: 100%; height: 1450px; margin: 0 auto;}
     
     .fbox6{text-align: center; width: 100%;}
     .fbox6 span{color: #1B5E20; font-weight: bolder; font-size: 30px; width: 100%; font-family: 'Script MT';}
@@ -98,7 +100,7 @@
     .fbox7 p{ color: gray; font-size: 12px; margin-top: 20px;}
     .fbox7 h3{margin-top: 10px;}
     
-    .fbox7 button{ color: #1B5E20; width: 95px; height: 30px; margin-top: 20px; font-size: 12px; border: 2px solid #1B5E20; background-color: #212121; font-weight: bolder;}
+    .fbox7 button{ color: #1B5E20; width: 95px; height: 30px; margin-top: 20px; font-size: 12px; border: 2px solid #1B5E20; background: none; font-weight: bolder;}
     .fbox7 button:hover{ background-color: #1B5E20; color: white;}
     
 }
