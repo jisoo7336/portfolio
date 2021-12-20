@@ -9,14 +9,3 @@ $(function(){
   
     setInterval(slide, 10000);
 });
-
-$(function(){
-  $(".a").click(function(){ 
-  $(".b").slideToggle();
-  });
-  });
-  $(window).resize(function(){
-  if(window.innerWidth<=768){
-  $('.b').show();
-  }
-});
