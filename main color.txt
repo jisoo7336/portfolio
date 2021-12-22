@@ -11,8 +11,12 @@
 
 
 
-레이아웃 페이지 주소
+메인 레이아웃 페이지 주소
 https://preview.colorlib.com/#coffeeblend
+
+서브 레이아웃 페이지 주소 
+https://preview.colorlib.com/#liquorstore 
+-> Products페이지 
 
 선생님 블로그
 https://blog.naver.com/red0808
