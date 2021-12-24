@@ -25,7 +25,7 @@ body{width: 100%; height: 100%; background: url(../img/bg.jpg) no-repeat fixed  
 .Products{width: 100%; height: 50px;}
 .Products p{float: left; color: white; }
 .Products select{float: right; background: none; color: white; height: 30px; border: none; font-weight: bold;}
-.Products option{color: #1B5E20; font-weight: bold; height: 30px;}
+.Products option{color: black; font-weight: bold; height: 30px;}
 
 .Shopping{width: 32%; height: 400px; float: left; margin-right: 15px; margin-bottom: 50px; background-color: #1a1a1a;}
 .Shopping1{width: 32%; height: 400px; background-color: #1a1a1a; float: left; margin-bottom: 50px;}
