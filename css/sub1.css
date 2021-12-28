@@ -14,7 +14,7 @@
 
 #sba{width: 75%; height: 100%; padding: 100px 30px; float: left;}
 .Products{width: 100%; height: 50px;}
-.Products p{float: left; color: white; }
+.Products p{float: left; color: white; font-size: 15px;}
 .Products select{float: right; background: none; color: white; height: 30px; border: none; font-weight: bold;}
 .Products option{color: black; font-weight: bold; height: 30px;}
 
@@ -43,12 +43,13 @@
 
 
 
-#sbb{width: 25%; height: 100%;  float: right; padding: 90px 10px;}
-#sbb h2{color: white; margin-bottom: 20px;} 
+#sbb{width: 25%; height: 100%;  float: right; padding: 100px 10px;}
+#sbb h2{color: white; margin-bottom: 20px; font-size: 15px;} 
 
 .tablebox{width: 100%; height: 40px; padding: 10px 0px;} 
+.tablebox a{font-size: 10px;}
 .tbb{width: 10%; height: 40px; float: right;}
-.tbb a{color: white; font-weight: bolder;}
+.tbb a{color: white; font-weight: bolder; font-size: 10px;}
 
 .tablebox:nth-of-type(1){border-bottom: 1px #1B5E20 solid;}
 .tablebox:nth-of-type(2){border-bottom: 1px #1B5E20 solid;}
